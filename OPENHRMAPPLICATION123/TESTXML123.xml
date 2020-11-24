@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Test123">
+
+<test name="Test123-HRM_pending">
+
+<classes>
+<class name="tESTCASES.PENDING_LEAVE_REQUEST"></class>
+</classes>
+</test>
+
+<test name="Test123-HRM_test_user_role">
+
+<classes>
+<class name="tESTCASES.TEST_USER_ROLE"></class>
+</classes>
+</test>
+
+</suite>

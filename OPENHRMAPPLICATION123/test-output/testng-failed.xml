@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test123]">
+  <test name="Test123-HRM_pending(failed)">
+    <classes>
+      <class name="tESTCASES.PENDING_LEAVE_REQUEST">
+        <methods>
+          <include name="pendingLeaveREQUEST"/>
+          <include name="TearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tESTCASES.PENDING_LEAVE_REQUEST -->
+    </classes>
+  </test> <!-- Test123-HRM_pending(failed) -->
+  <test name="Test123-HRM_test_user_role(failed)">
+    <classes>
+      <class name="tESTCASES.TEST_USER_ROLE">
+        <methods>
+          <include name="VerifyTestStatus"/>
+          <include name="TearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- tESTCASES.TEST_USER_ROLE -->
+    </classes>
+  </test> <!-- Test123-HRM_test_user_role(failed) -->
+</suite> <!-- Failed suite [Test123] -->
